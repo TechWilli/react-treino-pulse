@@ -1,0 +1,16 @@
+{
+	"backgroundColor": "#FFFFFF",
+	"primaryColor": "#F7F6F0",
+	"secondaryColor": "#333333",
+	"thirdColor": "#ffffff",
+	"cardPrimary": "#6c757d",
+	"cardSecondary": "#ffffff",
+	"textPrimaryColor": "#333333",
+	"textSecondaryColor": "#909090",
+	"textTertiaryColor": "#1878C9",
+	"textQuaternaryColor": "#FFFFFF",
+	"textQuinaryColor": "#A7A7A7",
+	"iconPrimaryColor": "#515151",
+	"tableFontWeight": "400",
+	"navbarBgColor": "#F7F6F0"
+}

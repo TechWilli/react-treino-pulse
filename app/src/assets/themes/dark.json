@@ -1,0 +1,12 @@
+{
+	"backgroundColor": "#4A4A4A",
+	"primaryColor": "#3D3D3D",
+	"secondaryColor": "#4A4A4A",
+	"thirdColor": "#515151",
+	"cardPrimary": "#515151",
+	"cardSecondary": "#3D3D3D",
+	"textPrimaryColor": "#FFFFFF",
+	"textSecondaryColor": "#BCBCBC",
+	"iconPrimaryColor": "#FFFFFF",
+	"tableFontWeight": "300"
+}

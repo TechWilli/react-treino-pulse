@@ -1,0 +1,393 @@
+/* CSS GLOBAL */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+.App {
+    text-align: center;
+    /* background-color: #e2e2e2; */
+    /* font-family: Aller Regular; */
+}
+
+/* Default Theme */
+
+html {
+    height: 100%;
+}
+
+body {
+    line-height: none !important;
+    height: 100%;
+    /* background-color: #4a4a4a !important; */
+    /* --primaryTextColor: #000000; */
+    /* font-family: 'Ubuntu', sans-serif !important; */
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('./assets/fonts/Neris-Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris SemiBold';
+    src: url('./assets/fonts/Neris-SemiBold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div#root {
+    height: 100%;
+}
+
+div#main-content-container {
+    height: 84%;
+}
+
+.main-content {
+    left: 4vw !important;
+    position: absolute;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    padding-bottom: 3vh;
+    /* max-width: 200vw; */
+    width: 95% !important;
+}
+
+.core-main-body {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.vertical-line {
+    border-left: 1px solid #000;
+}
+
+select {
+    background: none !important;
+}
+
+.select-wrapper::after {
+    content: "\f0d7";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    bottom: 1.5rem;
+    position: absolute;
+    right: 1.75rem;
+    display: inline-block;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.swal2-confirm.swal2-styled {
+    background-color: #f09a39 !important;
+}
+
+.swal2-confirm.core-confirm-swal-button.swal2-styled {
+    background-color: #00C851 !important;
+}
+
+.center-check {
+    margin-top: 9%;
+}
+
+.text-read-only {
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.core-button-pulse {
+    color: #ffffff !important;
+    background-color: #ee622d !important;
+    height: 40px !important;
+}
+
+button.btn-defaut-grey {
+    border: 2px solid #b5b5b5 !important;
+    color: #b5b5b5 !important;
+}
+
+button.btn-defaut-grey:hover {
+    border: 2px solid #b5b5b5 !important;
+    color: #b5b5b5 !important;
+}
+
+button.btn-defaut-grey:focus {
+    border: 2px solid #b5b5b5 !important;
+    color: #b5b5b5 !important;
+}
+
+.swal2-title {
+    color: #000000 !important;
+}
+
+button.btn-tree-tab {
+    border-radius: 27px !important;
+}
+
+/* Let's get this party started */
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+/* Track */
+
+/* ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0.2rem rgba(0, 0, 0, 0.3);
+} */
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    background: #909090;
+    -webkit-box-shadow: inset 0 0 0.3rem #909090;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #C0C0C0;
+    -webkit-box-shadow: inset 0 0 0.3rem #C0C0C0;
+}
+
+.core-loading-page {
+    height: 80vh;
+}
+
+.core-loading-page-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 97%;
+    z-index: 700;
+    margin-left: -1rem;
+}
+
+.core-loading-page-wrapper.loading-show {
+    opacity: 1;
+    display: block;
+}
+
+.core-loading-page-wrapper.loading-hide {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.15s ease-in-out 0s;
+    transition: display 0.2s ease-in-out 0s;
+}
+
+.core-login-wrapper {
+    background-image: url('./assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+}
+
+iframe {
+    border-width: 0px !important;
+    height: 100%;
+    width: 100%;
+}
+
+.h-5 {
+    height: 5% !important;
+}
+
+.h-10 {
+    height: 10% !important;
+}
+
+.h-15 {
+    height: 15% !important;
+}
+
+.h-20 {
+    height: 20% !important;
+}
+
+.h-30 {
+    height: 30% !important;
+}
+
+.h-35 {
+    height: 35% !important;
+}
+
+.h-40 {
+    height: 40% !important;
+}
+
+.h-45 {
+    height: 45% !important;
+}
+
+.h-55 {
+    height: 55% !important;
+}
+
+.h-60 {
+    height: 60% !important;
+}
+
+.h-65 {
+    height: 65% !important;
+}
+
+.h-70 {
+    height: 70% !important;
+}
+
+.h-80 {
+    height: 80% !important;
+}
+
+.h-85 {
+    height: 85% !important;
+}
+
+.h-90 {
+    height: 90% !important;
+}
+
+.h-95 {
+    height: 95% !important;
+}
+
+.w-5 {
+    width: 5% !important;
+}
+
+.w-10 {
+    width: 10% !important;
+}
+
+.w-15 {
+    width: 15% !important;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.w-25 {
+    width: 25% !important;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+.w-35 {
+    width: 35% !important;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+.w-45 {
+    width: 45% !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.w-55 {
+    width: 55% !important;
+}
+
+.w-60 {
+    width: 60% !important;
+}
+
+.w-65 {
+    width: 65% !important;
+}
+
+.w-70 {
+    width: 70% !important;
+}
+
+.w-75 {
+    width: 75% !important;
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+.w-85 {
+    width: 85% !important;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+.w-95 {
+    width: 95% !important;
+}
+
+h1 {
+    font-size: 20px !important;
+    font-weight: normal !important;
+    line-height: 22px !important;
+}
+
+h2 {
+    font-size: 20px !important;
+    font-weight: normal !important;
+    line-height: 22px !important;
+}
+
+h3 {
+    font-size: 18px !important;
+    font-weight: normal !important;
+    line-height: 20px !important;
+}
+
+h4 {
+    font-size: 18px !important;
+    font-family: 'Neris SemiBold';
+    line-height: 20px !important;
+}
+
+p {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 19px !important;
+}
+
+p.detail-text {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    line-height: 17px !important;
+}
+
+input[type="text"] {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 18px !important;
+}
+
+label {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    line-height: 16px !important;
+}
+
+.form-control, .form-control-sm {
+    background-color: transparent !important;
+}
+
+/* ======== CSS mobile settings ============ */
+
+@media screen and (max-width: 600px) {
+    div.main-content {
+        padding-left: 16vw;
+    }
+    .core-login-wrapper {
+        background-size: auto !important;
+    }
+}
